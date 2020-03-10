@@ -1,0 +1,16 @@
+Library IEEE;
+Use IEEE.STD_LOGIC_1164.ALL;
+
+Entity yarımtoplayıcı is
+ Port(
+      giris1: in STD_LOGIC;                                                         
+      giris2: in STD_LOGIC;
+      cikis1:out STD_LOGIC;
+		cikis2:out STD_LOGIC
+  );
+  end yarımtoplayıcı;
+architecture davranisi of or_prj is 
+Begin 
+  cikis1 <= giris1 xor giris2;
+  cikis2 <= giris1 and giris2;  
+End davranisi;

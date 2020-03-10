@@ -1,0 +1,6 @@
+|and_prc
+c <= <GND>
+g1 => ~NO_FANOUT~
+g2 => ~NO_FANOUT~
+
+

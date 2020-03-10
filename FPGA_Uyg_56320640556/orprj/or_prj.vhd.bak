@@ -1,0 +1,14 @@
+Library IEEE;
+Use IEEE.STD_LLOGIC_1164.ALL;
+
+Entitity andvhdl is
+ Port(
+giris1: in STD_LOGIC;                                                          
+giris2: in STD_LOGIC;
+cikis:out STD_LOGIC;
+  );
+  end andvhdl;
+Architrcture davranisi of andvhdl is 
+    Begin 
+  cikis<= giris1 and giris2;                                                      
+End davranisi;

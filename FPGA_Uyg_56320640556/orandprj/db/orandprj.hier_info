@@ -1,0 +1,24 @@
+|orandprj
+pin_name3 <= and_prj1:inst9.c
+pin_name1 => and_prj1:inst.g1
+pin_name2 => or_prj:inst8.giris2
+
+
+|orandprj|and_prj1:inst9
+c <= inst.DB_MAX_OUTPUT_PORT_TYPE
+g1 => inst.IN0
+g2 => inst.IN1
+
+
+|orandprj|and_prj1:inst
+c <= inst.DB_MAX_OUTPUT_PORT_TYPE
+g1 => inst.IN0
+g2 => inst.IN1
+
+
+|orandprj|or_prj:inst8
+giris1 => cikis.IN0
+giris2 => cikis.IN1
+cikis <= cikis.DB_MAX_OUTPUT_PORT_TYPE
+
+

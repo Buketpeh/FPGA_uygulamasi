@@ -1,0 +1,9 @@
+|yarimtoplayici
+giris1 => cikis1.IN0
+giris1 => cikis2.IN0
+giris2 => cikis1.IN1
+giris2 => cikis2.IN1
+cikis1 <= cikis1.DB_MAX_OUTPUT_PORT_TYPE
+cikis2 <= cikis2.DB_MAX_OUTPUT_PORT_TYPE
+
+

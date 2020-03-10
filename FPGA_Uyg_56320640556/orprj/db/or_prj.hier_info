@@ -1,0 +1,6 @@
+|or_prj
+giris1 => cikis.IN0
+giris2 => cikis.IN1
+cikis <= cikis.DB_MAX_OUTPUT_PORT_TYPE
+
+
